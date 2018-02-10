@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "express": "^4.16.2",
-    "multer":"latest"
+    "multer":"latest",
+    "mongodb":"latest"
   },
   "engines": {
     "node": "8.x"

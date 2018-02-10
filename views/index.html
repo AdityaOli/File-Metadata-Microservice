@@ -13,16 +13,9 @@
  
       <form action="/upload" method="post" enctype="multipart/form-data">
           Submit a file to view its filesize.<br/><br/>
-          <input type="file" name="fileToUpload" id="fileToUpload">&nbsp;
-          <input type="submit" onclick="fileUploadFunction()" value="Upload The File" name="submit">
+          <input type="file" name="file" id="file">&nbsp;
+          <input type="submit" value="Upload The File" name="submit">
       </form>
     
   </body>
-  <script>
-    function fileUploadFunction()
-    {
-        var x = document.getElementById("fileToUpload");
-        x.disabled = true;
-    }
-  </script>
 </html>
